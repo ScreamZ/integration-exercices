@@ -1,0 +1,140 @@
+html {
+    font-size: 125%
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    /*height: 1010px;*/
+    margin: 0;
+}
+
+.Main {
+    background-color: white;
+    width: 1020px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+menu {
+    list-style: none;
+    color: white;
+    line-height: 60px;
+    padding: 0;
+}
+
+menu ul {
+    padding: inherit;
+}
+
+menu li {
+    display: inline;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+menu li.Menu--selected {
+    color: #cfa205;
+}
+
+menu li + li {
+    margin-left: 30px;
+}
+
+h1, nav, ul {
+    margin: 0;
+}
+
+/** Container */
+
+.Container {
+    margin: 0;
+    text-align: center;
+}
+
+.Container--small {
+    height: 60px;
+}
+
+.Container--large {
+    height: 90px;
+}
+
+.Container--extraLarge {
+    height: 320px;
+}
+
+/** Main title */
+.MainTitle {
+    font-size: 133px;
+    color: #cfa205;
+    vertical-align: middle;
+    line-height: 240px;
+    text-transform: uppercase;
+}
+
+.MainSubtitle {
+    color: #cfa205;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.MainSubtitle li {
+    display: inline-block;
+}
+
+.MainSubtitle li + li {
+    margin-left: -4px;
+}
+
+.MainSubtitle li + li:before {
+    padding: 0 10px;
+    content: '\2022';
+}
+
+/** Intro text */
+.Intro {
+    font-weight: bold;
+    color: #7a7a7a;
+    margin: 60px 60px;
+}
+
+/** Cards */
+
+.CardContainer {
+    border-top: 2px solid #e8e8e8;
+    padding-top: 50px;
+    width: 900px;
+    height: 450px;
+    margin: 0 60px;
+}
+
+.Card {
+    display: inline-block;
+    padding: 0 15px;
+    width: 260px;
+    height: 480px;
+}
+
+.Card img {
+    height: 195px;
+}
+
+.Card-description h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.Card-description p {
+    font-size: 14px;
+    /*height: 480px;*/
+}
+
+/* COLOR */
+
+.Bg--black {
+    background-color: black;
+}
+
+.Bg--grey {
+    background-color: #e8e8e8;
+}
